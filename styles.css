@@ -1,0 +1,56 @@
+h1{
+  text-align: center;
+}
+img{
+  width:410px;
+  border:8px solid black;
+  height: 410px;
+  object-fit: cover;
+  flex-direction: row;
+  border-radius: 135px;
+  filter:contrast(200%);
+  filter: brightness(150%);
+   filter:drop-shadow(10px 10px 12px gray);
+}
+
+
+body{
+  background-color: #A4DFB4;
+  text-align: center;
+  border:8px solid #C31E9B
+  background-image:linear-gradient(#89F0CE);(#E389F0); 
+}
+
+h1{
+  font-family: 'Swanky and Moo Moo', cursive;
+  border:8px solid #C31E9B
+}
+h1{
+  background:#E389F0;
+  color:#C31E9B;
+  font-size: 200px
+  text-decoration: underline overline;
+ }
+
+
+@media screen and (max-width: 900px) {
+  h1{
+    background:blue;
+      font-size:200px;
+      text-decoration: underline overline;
+  }
+  h3{
+    background: #F6B2B9;
+    color: #B2F6C5;
+  }
+}
+@media screen and (max-width: 900px) {
+  img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+
+  }
+}
+
+}
